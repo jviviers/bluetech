@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+BlueTech Techncian Control System Login/Index page
+Developed by Jacques Viviers (ITE-University of South Africa)
+-->
+<html lang="en">
+    <head>
+        <title>BlueTech</title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="BTCSS.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            
+            <div class="col-sm-4">
+                <span id="appname">BlueTech</span><br>
+                <span id="login-description">Technician Control System</span>
+                
+                <br><br><br>
+                <form action="logincontroller.php" method="post">
+                    <div class ="row">    
+                        <div class="form-group">
+                            <label for="email" style="color:black;">Email:</label>
+                            <input type="email" class="form-control" name="email" required>
+                        </div>
+                        <div class="form-group">
+                                <label for="pwd" style="color:black;">Password:</label>
+                                <input type="password" class="form-control" name="pwd" required>
+                        </div>
+                        <div class="form-group" id="buttons"><br>
+                        <button type="reset" class="btn btn-primary" >Reset</button>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                        </div>
+                        <div id="footer"><br> Empowering Bytes Managed Solutions <br> <h5>- Developed by Jacques Viviers -</h5></div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-4"> </div>
+            <div class="col-sm-4"> </div>
+            
+        </div>
+    </body>
+</html>

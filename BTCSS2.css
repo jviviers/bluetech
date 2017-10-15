@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+}
+.form-control{
+    background-color: white;   
+}
+.navbar-brand{
+    
+    font-family: Arial Black;
+    font-size:200%;
+}
+#pagenames{
+    text-align: center;
+    font-size: 150%;
+}
+th{
+    background-color:steelblue;
+    color: white;
+}
+#addbutton{
+    text-align: right;
+}
+#editName{
+    color: steelblue;
+    font-size: 150%;
+}
+#newincident{
+    text-align: right;
+}
+#devname{
+    color: grey;
+    font-size: 70%;
+}

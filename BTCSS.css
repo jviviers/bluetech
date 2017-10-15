@@ -1,0 +1,29 @@
+body{
+    background-color: whitesmoke;
+}
+.container-fluid {
+    padding-top: 3%;
+    padding-left: 4%;
+}
+.form-control{
+    background-color: white;   
+}
+#appname{
+    font-family: Arial Black;
+    color:darkblue;
+    font-size:300%;
+}
+h5{
+    color:gray;
+}
+#buttons{
+    text-align: right;
+}
+#footer{
+    text-align: right;   
+}
+#login-description{
+    font-family: Arial;
+    color:black;
+    font-size:130%;
+}
